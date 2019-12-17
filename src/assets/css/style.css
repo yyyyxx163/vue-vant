@@ -1,0 +1,119 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    min-height: 100%;
+
+}
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+    background: #f5f5f5!important;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea,option {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.inline{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.wrap {
+    padding: 0 0.21rem;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:textfield;
+}
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+html{font-size: 100px;}
+@media screen and (min-width:320px){html{font-size:42.667px;}}
+@media screen and (min-width:360px){html{font-size:48px;}}
+@media screen and (min-width:375PX){html{font-size:50px;}}
+@media screen and (min-width:384px){html{font-size:51.2px;}}
+@media screen and (min-width:400px){html{font-size:53.3px;}}
+@media screen and (min-width:412px){html{font-size:54.9px;}}
+@media screen and (min-width:414px){html{font-size:55.2px;}}
+@media screen and (min-width:424px){html{font-size:56.5px;}}
+@media screen and (min-width:480px){html{font-size:64px;}}
+@media screen and (min-width:540px){html{font-size:72px;}}
+@media screen and (min-width:720px){html{font-size:96px;}}
+@media screen and (min-width:750px){html{font-size:100px;}}
+@media screen and (min-width:768px){html{font-size: 102.4px;}}
+@media screen and (min-width:800px){html{font-size: 106.7px;}}
+@media screen and (min-width:980px){html{font-size: 130.7px;}}
+@media screen and (min-width:1080px){html{font-size: 144px;}}
+@media screen and (min-width:1152px){html{font-size: 153.6px;}}
+@media screen and (min-width:1366px){html{font-size: 182.1px;}}
+@media screen and (min-width:1440px){html{font-size: 192px;}}
+@media screen and (min-width:2160px){html{font-size: 288px;}}

@@ -1,15 +1,19 @@
 {
-  "name": "food_safety",
+  "name": "template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:test": "set NODE_ENV=test&&vue-cli-service serve",
+    "serve:production": "set NODE_ENV=production&&vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.3.2",
+    "vant": "^2.2.11",
     "vue": "^2.6.10",
+    "vue-navigation": "^1.1.4",
     "vue-router": "^3.1.3",
     "vuex": "^3.0.1"
   },

@@ -1,4 +1,4 @@
-# food_safety
+# template
 
 ## Project setup
 ```
